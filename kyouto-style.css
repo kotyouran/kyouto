@@ -283,6 +283,12 @@ body {
     object-fit: cover;
 }
 
+.food-item-img.__settai {
+    object-position: 50% 75% ;
+    
+}
+
+
 .food-item-text {
     padding: 2px 0 5px;
     background-color: rgb(232, 255, 230);
@@ -298,6 +304,12 @@ body {
 .food-item-text p {
     font-size: 20px;
 }
+
+
+.settai {
+    transform: scale();
+}
+
 
 .osake-wrap {
     display: flex;
