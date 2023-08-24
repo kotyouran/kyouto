@@ -1,0 +1,312 @@
+@charset "UTF-8";
+@media screen and (max-width: 480px) {
+body {
+    font-family: 'Klee One', cursive;
+    width: 100%;
+}
+
+.top-nav {
+    display: flex;
+    background-color: rgb(14,63,0,0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:  100%;
+    height: 60px;
+    z-index: 100;
+    color: white;
+}
+
+.top-nav img {
+    width: 100px;
+    height: 50px;
+    margin: 0;
+}
+
+.top-nav-logo {
+    width: 200px;
+}
+/* none */
+.top-nav-list {
+    display: none;
+}
+
+
+
+.top-nav-right {
+    text-align: left;
+    margin: 0;
+    font-size: 15px;
+    display: flex;
+}
+
+.top-nav-right  .top-icon-insta{
+    width: 40px;
+    height: 45px;
+    
+}
+
+.top-nav-right  .top-icon-line{
+    width: 45px;
+    height: 50px;
+}
+
+
+
+/* ---------------------------header ---------------------------------*/
+
+
+
+.header-img-box{
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.header-img {
+    position: relative;
+    object-fit: cover;
+    object-position: 50% 45%;
+}
+
+
+
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 450px;
+    transform: translate(-50%,-50%);
+    
+}
+
+
+
+
+/* none */
+.header-nav {
+    width: 80%;
+    margin: 100px auto ;
+    display: none;
+}
+
+/* section-ttl */
+
+
+.section-ttl {
+    width: 100%;
+    margin: 30px auto 10px;
+    height: 50px;
+}
+
+
+.section-inner {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.section-inner-s {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 50px;
+    background: url(img/bg150.jpg);
+ 
+}
+
+
+/* main */
+
+
+/* concept */
+.concept-detail {
+    height: 600px;
+    margin: 0;
+    text-align: center;
+    display: block;
+    width: 100%;
+    background-color: rgba(255, 236, 244, 0.5);
+}
+
+
+
+.concept-detail-imagebox {
+    width: 100%;
+    height: 400px;
+}
+
+.concept-detail-image {
+    width: 100%;
+}
+
+
+
+.concept-detail-textbox {
+    z-index: 100;
+    width: 100%;
+}
+
+.concept-detail-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.concept-detail-textup {
+    font-size: 45px;
+    font-weight: bold;
+    padding: 0 0 20px 10px;
+}
+
+
+/* food */
+
+.section-ttl.__food {
+    margin-top: 50px;
+}
+
+.food-top-wrap {
+    display: block;
+    padding: 0;
+    text-align: center;
+}
+
+.food-imgbox {
+    width: 100%;
+    height: 300px;
+    margin: 0;
+}
+
+.food-img {
+    object-fit: cover;
+}
+
+.food-textbox {
+    font-size: 25px;
+}
+
+
+.food-banner {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px auto 30px;
+}
+
+
+.food-item {
+    margin: 20px 30px 10px 0;
+    text-align: center;
+    border: 1px solid rgb(0, 156, 8);
+}
+
+.food-item-img {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.food-item-img img{
+    object-fit: cover;
+}
+
+.food-item-img.__settai {
+    object-position: 50% 75% ;
+    
+}
+
+
+.food-item-text {
+    padding: 2px 0 5px;
+    background-color: rgb(232, 255, 230);
+    
+}
+
+.food-item-text h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 2px;
+}
+
+.food-item-text p {
+    font-size: 20px;
+}
+
+
+.settai {
+    transform: scale();
+}
+
+.osake-wrap {
+    display: block;
+}
+
+.food-imgbox.__osake {
+    margin: 0;
+    width: 100%;
+    height: 300px;
+}
+
+.food-textbox.__osake {
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    height: 150px;
+    width: 100%;
+    background-color: rgb(219, 242, 255);
+}
+
+.sidasi-wrap {
+    display: block;
+    text-align: center;
+    height: 350px;
+}
+
+/* access */
+
+.access {
+    background-color: rgb(230, 255, 238,0.5);
+    padding: 20px 0 10px;
+    margin-top: -10px;
+    
+}
+
+.access-wrap {
+    height: 450px;
+    display: block;
+}
+
+.access-img {
+    width: 100%;
+    height: 300px;
+    
+    display: block;
+}
+
+
+.access-text table {
+    font-size: 20px;
+}
+
+.access-text td {
+    padding: 7px;
+}
+
+.icon-insta {
+    width: 42px;
+    padding-bottom: 4px;
+    margin-right: 5px;
+}
+
+.icon-line {
+    width: 50px;
+}
+
+
+.google-map iframe {
+    width: 380px;
+    margin: 50px auto 30px;
+    text-align: center;
+}
+
+}
